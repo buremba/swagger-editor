@@ -81,7 +81,7 @@ SwaggerEditor.controller('PreviewCtrl', function PreviewCtrl(Storage, Builder,
       $rootScope.progressStatus = 'success-process';
     });
 
-    Editor.clearAnnotation();
+    Editor && Editor.clearAnnotation();
 
     _.each(result.warnings, function (warning) {
       Editor.annotateSwaggerError(warning, 'warning');
