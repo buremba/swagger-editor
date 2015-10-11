@@ -2,8 +2,8 @@
   "codegen": {
   },
   "analytics": {
-    google: {
-      id:null
+    "google": {
+      "id": null
     }
   },
   "disableCodeGen": true,
