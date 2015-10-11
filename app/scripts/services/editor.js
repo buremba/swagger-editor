@@ -39,7 +39,7 @@ SwaggerEditor.service('Editor', function Editor(Autocomplete, ASTManager,
   }
 
   function clearAnnotation() {
-    editor.getSession().clearAnnotations();
+    editor && editor.getSession().clearAnnotations();
   }
 
   function aceLoaded(e) {
