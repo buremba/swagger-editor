@@ -2,6 +2,9 @@
   "codegen": {
   },
   "analytics": {
+    google: {
+      id:null
+    }
   },
   "disableCodeGen": true,
   "examplesFolder": "spec-files/",
